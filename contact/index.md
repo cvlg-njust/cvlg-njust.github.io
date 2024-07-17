@@ -58,7 +58,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% capture col1 %}
 Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
+consectetur adipiscing elit
 sed do eiusmod tempor
 {% endcapture %}
 
