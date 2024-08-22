@@ -9,10 +9,7 @@
 
 ## Resents
 
-{%
-  include 0slides.html
-  link="research"
-%}
+{% include carousel.html slides=site.data.slides %}
 
 ## Highlights
 

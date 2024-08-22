@@ -1,12 +1,17 @@
-// assets/js/carousel.js
-let currentSlide = 0;
+let slideIndex = 0;
+showSlides(slideIndex);
 
-function changeSlide(direction) {
-    const slides = document.querySelectorAll('.carousel-item');
-    slides[currentSlide].classList.remove('active');
-    currentSlide = (currentSlide + direction + slides.length) % slides.length;
-    slides[currentSlide].classList.add('active');
+function changeSlide(n) {
+  showSlides(slideIndex += n);
 }
 
-// Optional: Automatic slide change every 3 seconds
-setInterval(() => changeSlide(1), 3000);
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("carousel-item");
+  if (n >= slides.length) { slideIndex = 0 }
+  if (n < 0) { slideIndex = slides.length - 1 }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex].style.display = "block";
+}
