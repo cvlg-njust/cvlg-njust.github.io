@@ -14,7 +14,7 @@
 official website of Creative Learning&Learning Group.
 
 {%
-  include button.html
+  include 0video.html
   link="research"
   text="See our publications"
   icon="fa-solid fa-arrow-right"
