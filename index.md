@@ -12,9 +12,6 @@
 {%
   include 0slides.html
   link="research"
-  text="See our publications"
-  flip=true
-  style="bare"
 %}
 
 ## Highlights
