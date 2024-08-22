@@ -1,0 +1,28 @@
+.carousel {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+
+    .carousel-item {
+        display: none;
+        position: absolute;
+        width: 100%;
+        transition: opacity 0.5s ease-in-out;
+        
+        &.active {
+            display: block;
+            position: relative;
+            opacity: 1;
+        }
+    }
+
+    .carousel-caption {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 5px 10px;
+    }
+}

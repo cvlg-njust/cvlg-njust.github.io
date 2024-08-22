@@ -10,7 +10,7 @@
 ## Resents
 
 {%
-  include 0video.html
+  include 0slides.html
   link="research"
   text="See our publications"
   flip=true
