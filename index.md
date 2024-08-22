@@ -7,6 +7,16 @@
 
 {% include section.html %}
 
+## Resents
+
+{%
+  include 0video.html
+  link="research"
+  text="See our publications"
+  flip=true
+  style="bare"
+%}
+
 ## Highlights
 
 {% capture text %}
@@ -14,7 +24,7 @@
 official website of Creative Learning&Learning Group.
 
 {%
-  include 0video.html
+  include button.html
   link="research"
   text="See our publications"
   icon="fa-solid fa-arrow-right"
