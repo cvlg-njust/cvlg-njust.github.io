@@ -69,10 +69,12 @@ main {
   }
   
   .carousel-indicators {
-    text-align: center;
     position: absolute;
-    bottom: 15px;
-    width: 100%;
+    right: 10px; /* 调整为距离右边10px */
+    bottom: 10px; /* 调整为距离底部10px */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; /* 小圆点向右对齐 */
   }
   
   .dot {
