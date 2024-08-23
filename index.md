@@ -11,6 +11,10 @@
 
 {% include carousel.html slides=site.data.slides %}
 
+## Resent Works
+
+{% include news.html %}
+
 ## Highlights
 
 {% capture text %}
