@@ -15,3 +15,15 @@ function showSlides(n) {
   }
   slides[slideIndex].style.display = "block";
 }
+
+// 自动轮播功能
+function autoSlides() {
+  slideIndex++;
+  if (slideIndex >= document.getElementsByClassName("carousel-item").length) {
+    slideIndex = 0;
+  }
+  showSlides(slideIndex);
+  setTimeout(autoSlides, 5000); // 每5秒切换一次
+}
+
+autoSlides(); // 启动自动轮播
