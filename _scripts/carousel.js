@@ -1,5 +1,5 @@
 let slideIndex = 0;
-showSlides(slideIndex);
+autoSlides(); // 确保这行代码存在并被执行
 
 function changeSlide(n) {
   showSlides(slideIndex += n);
@@ -16,7 +16,8 @@ function showSlides(n) {
   slides[slideIndex].style.display = "block";
 }
 
-// 自动轮播功能
+
+
 function autoSlides() {
   slideIndex++;
   if (slideIndex >= document.getElementsByClassName("carousel-item").length) {
@@ -25,5 +26,3 @@ function autoSlides() {
   showSlides(slideIndex);
   setTimeout(autoSlides, 5000); // 每5秒切换一次
 }
-
-autoSlides(); // 启动自动轮播

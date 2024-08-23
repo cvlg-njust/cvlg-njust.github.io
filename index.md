@@ -7,7 +7,7 @@
 
 {% include section.html %}
 
-## Resents
+## Resent Works
 
 {% include carousel.html slides=site.data.slides %}
 
