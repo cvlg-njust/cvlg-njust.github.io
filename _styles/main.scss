@@ -8,7 +8,7 @@ main {
 }
 .carousel {
   position: relative;
-  max-width: 80%;
+  max-width: 90%;
   margin: auto;
   overflow: hidden;
 
@@ -96,9 +96,9 @@ main {
 }
 
 $content-section-padding: 20px;
-$news-bg-color: #6a0dad;
-$contact-us-bg-color: #8a2be2;
-$text-color: white;
+$news-bg-color: #9c96a0;
+$contact-us-bg-color: rgb(116, 94, 136);
+$text-color: rgb(0, 0, 0);
 $background-color: #f5f5f5;
 
 .content-section {
@@ -117,12 +117,12 @@ $background-color: #f5f5f5;
   }
 
   .news {
-    width: 60%;
+    width: 70%;
     background-color: $news-bg-color;
   }
 
   .contact-us {
-    width: 40%;
+    width: 30%;
     background-color: $contact-us-bg-color;
   }
 
