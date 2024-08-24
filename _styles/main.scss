@@ -94,7 +94,6 @@ main {
   }
   
 }
-
 $content-section-padding: 20px;
 $news-bg-color: #9c96a0;
 $contact-us-bg-color: rgb(116, 94, 136);
@@ -102,11 +101,10 @@ $text-color: rgb(0, 0, 0);
 $background-color: #f5f5f5;
 
 .content-section {
-
   display: grid;
   align-items: start; /* 顶端对齐 */
-  grid-template-columns: auto auto; /* 设置两个列 */
-  justify-content: space-between;
+  grid-template-columns: 70% 30%; /* 设置列比例 */
+  gap: $content-section-padding; /* 增加列间距 */
   padding: $content-section-padding;
   background-color: $background-color;
 
@@ -116,28 +114,26 @@ $background-color: #f5f5f5;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start; /* 保证内容顶端对齐 */
   }
 
   .news {
-    width: 70%;
     background-color: $news-bg-color;
   }
 
   .contact-us {
-    width: 30%;
     background-color: $contact-us-bg-color;
   }
 
   @media (max-width: 768px) {
-    flex-direction: column;
-
+    grid-template-columns: 1fr; /* 变为单列布局 */
     .news, .contact-us {
       width: 100%;
       margin-bottom: $content-section-padding;
     }
   }
 }
+
 
 
 
