@@ -105,6 +105,7 @@ $background-color: #f5f5f5;
 
   display: grid;
   align-items: start; /* 顶端对齐 */
+  grid-template-columns: auto auto; /* 设置两个列 */
   justify-content: space-between;
   padding: $content-section-padding;
   background-color: $background-color;
