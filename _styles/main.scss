@@ -8,7 +8,7 @@ main {
 }
 .carousel {
   position: relative;
-  max-width: 90%;
+  max-width: 100%;
   margin: auto;
   overflow: hidden;
 
@@ -101,11 +101,11 @@ $text-color: rgb(0, 0, 0);
 $background-color: #ffffff;
 
 .content-section {
-  max-width: 90%;
+  max-width: 100%;
   place-items: center; /* 水平垂直居中 */
   display: grid;
   align-items: start; /* 顶端对齐 */
-  grid-template-columns: 65% 25%; /* 设置列比例 */
+  grid-template-columns: 70% 30%; /* 设置列比例 */
   gap: $content-section-padding; /* 增加列间距 */
   padding: $content-section-padding;
   background-color: $background-color;
