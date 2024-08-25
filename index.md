@@ -17,7 +17,7 @@
 
 {% capture text %}
 
-official website of Creative Learning&Learning Group.
+Welcome to the Creative Vision&Learning Group.
 
 {%
   include button.html
