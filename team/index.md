@@ -10,8 +10,9 @@ nav:
 Team first part test
 
 {% include section.html %}
-
+## Pi
 {% include list.html data="members" component="portrait" filters="role: pi" %}
+## Resercher
 {% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %}
 
 {% include section.html background="images/computer_vision.jpg" dark=true %}
