@@ -102,6 +102,7 @@ $background-color: #ffffff;
 
 .content-section {
   max-width: 90%;
+  position: relative;
   display: grid;
   align-items: start; /* 顶端对齐 */
   grid-template-columns: 65% 25%; /* 设置列比例 */
