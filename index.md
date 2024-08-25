@@ -12,7 +12,7 @@
 {% include carousel.html slides=site.data.slides %}
 
 {% include news.html %}
-
+<!-- 
 ## Highlights
 
 {% capture text %}
@@ -84,4 +84,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   link="team"
   title="Our Team"
   text=text
-%}
+%} -->
