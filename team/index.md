@@ -7,9 +7,13 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
+{% capture content %}
+
 {% include figure.html image="images/photo.jpg" %}
 {% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
+
+
+{% endcapture %}
 
 {% include section.html %}
 ## Pi
@@ -23,10 +27,6 @@ Team second part test
 
 {% include section.html %}
 
-{% capture content %}
 
-
-
-{% endcapture %}
 
 {% include grid.html style="square" content=content %}

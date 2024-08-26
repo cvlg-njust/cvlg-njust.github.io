@@ -4,7 +4,7 @@ image: images/team/media/201a12ea-b20b-4320-b011-782e9074418f.png
 role: pi
 affiliation: Nanjing Univiersity of Science and Technology
 aliases:
-  - Jian Yang
+  - Jun Li
 links:
   home-page: https://sites.google.com/view/junlineu/
 ---
