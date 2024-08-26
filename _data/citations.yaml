@@ -1,5 +1,39 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1007/s44267-024-00048-9
+  title: Learnable differencing center for nighttime depth perception
+  authors:
+  - Zhiqiang Yan
+  - Yupeng Zheng
+  - Deng-Ping Fan
+  - Xiang Li
+  - Jun Li
+  - Jian Yang
+  publisher: Visual Intelligence
+  date: '2024-06-19'
+  link: https://doi.org/gt7vvk
+  orcid: 0000-0003-3502-438X
+  plugin: sources.py
+  file: sources-2024.yaml
+  image: images/team/media/b980a172-90fd-4e1d-9b32-4efc6836cfc8.png
+  type: paper
+- id: doi:10.1109/TNNLS.2022.3208330
+  title: Learning Complementary Correlations for Depth Super-Resolution With Incomplete
+    Data in Real World
+  authors:
+  - Zhiqiang Yan
+  - Kun Wang
+  - Xiang Li
+  - Zhenyu Zhang
+  - Guangyu Li
+  - Jun Li
+  - Jian Yang
+  publisher: IEEE Transactions on Neural Networks and Learning Systems
+  date: '2024-04-01'
+  link: https://doi.org/gr7qbz
+  orcid: 0000-0003-3502-438X
+  plugin: orcid.py
+  file: orcid-zhiqiangyan.yaml
 - id: doi:10.1109/TNNLS.2020.3040379
   title: Learnable Subspace Clustering
   authors:
@@ -13,7 +47,7 @@
   link: https://doi.org/gmdhx5
   orcid: 0000-0003-3716-671X
   plugin: orcid.py
-  file: orcid.yaml
+  file: orcid-junli.yaml
 - id: doi:10.1109/TCYB.2020.3031666
   title: Autoencoder-Based Latent Block-Diagonal Representation for Subspace Clustering
   authors:
@@ -27,7 +61,7 @@
   link: https://doi.org/gt7v2w
   orcid: 0000-0003-3716-671X
   plugin: orcid.py
-  file: orcid.yaml
+  file: orcid-junli.yaml
 - id: doi:10.1109/TIP.2018.2885238
   title: Hierarchical Tracking by Reinforcement Learning-Based Searching and Coarse-to-Fine
     Verifying
@@ -42,7 +76,7 @@
   link: https://doi.org/gt7v2x
   orcid: 0000-0003-3716-671X
   plugin: orcid.py
-  file: orcid.yaml
+  file: orcid-junli.yaml
 - id: doi:10.1109/TIP.2017.2765833
   title: Visual Representation and Classification by Learning Group Sparse Deep Stacking
     Network
@@ -57,7 +91,7 @@
   link: https://doi.org/gt7v2z
   orcid: 0000-0003-3716-671X
   plugin: orcid.py
-  file: orcid.yaml
+  file: orcid-junli.yaml
 - id: doi:10.1109/TIP.2017.2696786
   title: Deeply Learned View-Invariant Features for Cross-View Action Recognition
   authors:
@@ -70,7 +104,7 @@
   link: https://doi.org/f986s4
   orcid: 0000-0003-3716-671X
   plugin: orcid.py
-  file: orcid.yaml
+  file: orcid-junli.yaml
 - id: doi:10.1109/TIP.2016.2598654
   title: Learning Fast Low-Rank Projection for Image Classification
   authors:
@@ -84,7 +118,7 @@
   link: https://doi.org/f82xcv
   orcid: 0000-0003-3716-671X
   plugin: orcid.py
-  file: orcid.yaml
+  file: orcid-junli.yaml
 - id: doi:10.1016/j.neucom.2013.10.004
   title: Continuous attractors of higher-order recurrent neural networks with infinite
     neurons
@@ -98,23 +132,7 @@
   link: https://doi.org/gt7v22
   orcid: 0000-0003-3716-671X
   plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1007/s44267-024-00048-9
-  title: Learnable differencing center for nighttime depth perception
-  authors:
-  - Zhiqiang Yan
-  - Yupeng Zheng
-  - Deng-Ping Fan
-  - Xiang Li
-  - Jun Li
-  - Jian Yang
-  publisher: Visual Intelligence
-  date: '2024-06-19'
-  link: https://doi.org/gt7vvk
-  image: images/team/mediab/980a172-90fd-4e1d-9b32-4efc6836cfc8.png
-  type: paper
-  plugin: sources.py
-  file: sources.yaml
+  file: orcid-junli.yaml
 - id: arxiv:2405.16105
   title: 'MambaLLIE: Implicit Retinex-Aware Low Light Enhancement with Global-then-Local
     State Space'
@@ -128,9 +146,10 @@
   publisher: arXiv
   date: '2024-05-28'
   link: https://arxiv.org/abs/2405.16105
+  image: images/team/media/mamballie.png
   type: paper
   plugin: sources.py
-  file: sources.yaml
+  file: sources-2024.yaml
 - id: doi:10.1109/TITS.2024.3386689
   title: Pedestrian Crossing Intention Prediction Based on Cross-Modal Transformer
     and Uncertainty-Aware Multi-Task Learning for Autonomous Driving
@@ -144,4 +163,55 @@
   link: https://doi.org/gtw3mx
   type: paper
   plugin: sources.py
-  file: sources.yaml
+  file: sources-2024.yaml
+- id: doi:10.1109/ICASSP48485.2024.10447825
+  title: Exploring Multi-Modal Control in Music-Driven Dance Generation
+  authors:
+  - Ronghui Li
+  - Yuqin Dai
+  - Yachao Zhang
+  - Jun Li
+  - Jian Yang
+  - Jie Guo
+  - Xiu Li
+  publisher: ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech
+    and Signal Processing (ICASSP)
+  date: '2024-04-14'
+  link: https://doi.org/gt7wqt
+  type: paper
+  plugin: sources.py
+  file: sources-2024.yaml
+- id: doi:10.1109/ICASSP48485.2024.10446237
+  title: 'Text2Avatar: Text to 3d Human Avatar Generation with Codebook-Driven Body
+    Controllable Attribute'
+  authors:
+  - Chaoqun Gong
+  - Yuqin Dai
+  - Ronghui Li
+  - Achun Bao
+  - Jun Li
+  - Jian Yang
+  - Yachao Zhang
+  - Xiu Li
+  publisher: ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech
+    and Signal Processing (ICASSP)
+  date: '2024-04-14'
+  link: https://doi.org/gt7wqv
+  type: paper
+  plugin: sources.py
+  file: sources-2024.yaml
+- id: doi:10.1109/TPAMI.2024.3382753
+  title: 'Create Your World: Lifelong Text-to-Image Diffusion'
+  authors:
+  - Gan Sun
+  - Wenqi Liang
+  - Jiahua Dong
+  - Jun Li
+  - Zhengming Ding
+  - Yang Cong
+  publisher: IEEE Transactions on Pattern Analysis and Machine Intelligence
+  date: '2024-09-01'
+  link: https://doi.org/gt7wqw
+  type: paper
+  plugin: sources.py
+  file: sources-2024.yaml
