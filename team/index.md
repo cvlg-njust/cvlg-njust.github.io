@@ -17,7 +17,7 @@ nav:
 
 {% include section.html %}
 ## Professor
-{% include list.html data="members" component="portrait" filters="role: pi" %}
+{% include list.html data="members" component="portrait" filters="role: prof" %}
 ## PhD Students
 {% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %}
 
