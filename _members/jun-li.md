@@ -1,12 +1,13 @@
 ---
 name: Jun Li
 image: images/team/media/201a12ea-b20b-4320-b011-782e9074418f.png
-role: pi
+role: prof
 affiliation: Nanjing Univiersity of Science and Technology
 aliases:
   - Jun Li
 links:
   home-page: https://sites.google.com/view/junlineu/
+  orcid: 0000-0003-3716-671X
 ---
 
 Jun Li is a professor in Nanjing University of Science and Technology.

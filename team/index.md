@@ -16,9 +16,9 @@ nav:
 {% endcapture %}
 
 {% include section.html %}
-## Pi
+## Professor
 {% include list.html data="members" component="portrait" filters="role: pi" %}
-## Resercher
+## PhD Students
 {% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %}
 
 {% include section.html background="images/computer_vision.jpg" dark=true %}
