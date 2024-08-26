@@ -1,6 +1,9 @@
-- id: 10.1007/s44267-024-00048-9
+- id: doi:10.1007/s44267-024-00048-9
   type: paper
-
+- id: arxiv:2405.16105
+  type: paper
+- id: doi:10.1109/TITS.2024.3386689
+  type: paper
 # - id: doi:10.1007/s44267-024-00048-9
 #   image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
 

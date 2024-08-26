@@ -1,20 +1,16 @@
 ---
-name: Jane Smith
-image: images/photo.jpg
+name: Jun Li
+image: images/team/media/201a12ea-b20b-4320-b011-782e9074418f.png
 role: pi
-affiliation: University of Colorado
+affiliation: Nanjing Univiersity of Science and Technology
 aliases:
-  - J. Smith
-  - J Smith
+  - Jian Yang
 links:
-  home-page: https://janesmith.com
-  orcid: 0000-0001-8713-9213
+  home-page: https://sites.google.com/view/junlineu/
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Faucibus purus in massa tempor nec feugiat nisl pretium fusce.
-Elit at imperdiet dui accumsan.
-Duis tristique sollicitudin nibh sit amet commodo nulla facilisi.
-Vitae elementum curabitur vitae nunc sed velit dignissim sodales.
-Lacinia at quis risus sed vulputate odio ut.
-Magna eget est lorem ipsum.
+Jun Li is a professor in Nanjing University of Science and Technology.
+
+Education: Postdoc in MLHC, MIT, 2018-2019 and ML&CV, NEU, 2015-2018; Ph.D. in PR&IS, NJUST, 2011-2015; visiting in ML, Rutgers, 2012-2013. 
+
+Research Interests: I have a broad interest in Machine Learning, Computer Vision, and Cross-disciplinary Study in Machine Learning and Math/Physics/Chemistry. 
