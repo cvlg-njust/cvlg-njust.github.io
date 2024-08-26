@@ -1,9 +1,7 @@
 ---
 ---
 
-# Creative Vision&Learning Group@PCA Lab
-
-
+<!-- # Creative Vision&Learning Group@PCA Lab -->
 
 {% include section.html %}
 
