@@ -7,7 +7,9 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Team first part test
+{% include figure.html image="images/photo.jpg" %}
+{% include figure.html image="images/photo.jpg" %}
+{% include figure.html image="images/photo.jpg" %}
 
 {% include section.html %}
 ## Pi
@@ -23,9 +25,7 @@ Team second part test
 
 {% capture content %}
 
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
+
 
 {% endcapture %}
 
