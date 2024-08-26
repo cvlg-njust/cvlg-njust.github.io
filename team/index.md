@@ -18,8 +18,12 @@ nav:
 {% include section.html %}
 ## Professor
 {% include list.html data="members" component="portrait" filters="role: prof" %}
-## PhD Students
+## Ph.D. Candidates
 {% include list.html data="members" component="portrait" filters="role: phd" %}
+## M.S. Candidates
+{% include list.html data="members" component="portrait" filters="role: ms" %}
+## Alumni
+{% include list.html data="members" component="portrait" filters="role: alu" %}
 
 {% include section.html background="images/computer_vision.jpg" dark=true %}
 
