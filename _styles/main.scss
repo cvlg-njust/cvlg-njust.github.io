@@ -111,7 +111,6 @@ $background-color: #ffffff;
 
   .news, .contact-us {
     padding: $content-section-padding;
-    color: $text-color;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -120,10 +119,12 @@ $background-color: #ffffff;
 
   .news {
     background-color: $news-bg-color;
+    color: rgb(0 , 0 , 0);
   }
 
   .contact-us {
     background-color: $contact-us-bg-color;
+    color: #ffffff;
   }
 
   @media (max-width: 768px) {
