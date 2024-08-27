@@ -45,6 +45,8 @@
       | where_exp: "page", "page.nav"
       | sort: "nav.order"
     %}
+    <!-- 添加主页链接 -->
+    <a href="{{ '/' | absolute_url }}" class="home-link">Home</a>
     {% for page in pages %}
       {% if page.nav %}
         <a
