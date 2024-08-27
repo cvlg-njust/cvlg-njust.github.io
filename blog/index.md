@@ -1,9 +1,9 @@
 ---
 title: Home
-nav:
-  order: 1
-  tooltip: Return to Home
----
+# nav:
+#   order: 1
+#   tooltip: Return to Home
+# ---
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %}Home
 
