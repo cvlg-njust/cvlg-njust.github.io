@@ -20,6 +20,8 @@ nav:
 {% include list.html data="members" component="portrait" filters="role: prof" %}
 ## Ph.D. Candidates
 {% include list.html data="members" component="portrait" filters="role: phd" %}
+## Research Assistant
+{% include list.html data="members" component="portrait" filters="role: ra" %}
 ## M.S. Candidates
 {% include list.html data="members" component="portrait" filters="role: ms" %}
 ## Alumni

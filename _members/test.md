@@ -1,13 +1,7 @@
 ---
 name: Zeren Xiong
 image: images/photo.png
-role: phd
+role: 
 
-name: Shimin Li
-image: images/photo.png
-role: ms
 
-name: Zhoujie Wang
-image: images/photo.png
-role: alu
 ---

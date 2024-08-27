@@ -1,6 +1,6 @@
 ---
 name: Jun Li
-image: images/team/media/201a12ea-b20b-4320-b011-782e9074418f.png
+image: images/team/media/jun-li.jpg
 role: prof
 affiliation: Nanjing Univiersity of Science and Technology
 aliases:
