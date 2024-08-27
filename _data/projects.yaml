@@ -1,4 +1,4 @@
-- title: Cool Dataset
+- title: Creative Image Generation
   subtitle: a subtitle
   group: featured
   image: images/photo.jpg
@@ -19,7 +19,7 @@
     - resource
 
 - title: Cool Tutorial
-  subtitle: a subtitle
+  subtitle: featured
   image: images/photo.jpg
   link: https://github.com/
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
