@@ -21,7 +21,7 @@ nav:
 
 {% for role in roles %}
   <h2>{{ role | capitalize }}</h2>
-  {% assign filtered_members = site.data.members | where: "role", role %}
+  {% assign filtered_members = "members" | where: "role", role %}
   {% assign sorted_members = filtered_members | sort: "year" %}
   
   {% for member in sorted_members %}
