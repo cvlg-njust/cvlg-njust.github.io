@@ -17,7 +17,7 @@ nav:
 
 {% include section.html %}
 ## Professor
-{% assign professors = "members" | where: "role", "prof" | sort: "year" %}
+{% assign professors = site.data.members | where: "role", "prof" | sort: "year" %}
 {% include list.html data=professors component="portrait" %}
 
 ## Ph.D. Candidates
