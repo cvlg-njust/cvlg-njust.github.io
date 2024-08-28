@@ -17,23 +17,23 @@ nav:
 
 {% include section.html %}
 ## Professor
-{% assign professors = site.members | where: "role", "prof" | sort: "year" %}
+{% assign professors = "members" | where: "role", "prof" | sort: "year" %}
 {% include list.html data=professors component="portrait" %}
 
 ## Ph.D. Candidates
-{% assign phds = site.members | where: "role", "phd" | sort: "year" %}
+{% assign phds = "members" | where: "role", "phd" | sort: "year" %}
 {% include list.html data=phds component="portrait" %}
 
 ## Research Assistant
-{% assign ras = site.members | where: "role", "ra" | sort: "year" %}
+{% assign ras = "members" | where: "role", "ra" | sort: "year" %}
 {% include list.html data=ras component="portrait" %}
 
 ## M.S. Candidates
-{% assign mss = site.members | where: "role", "ms" | sort: "year" %}
+{% assign mss = "members" | where: "role", "ms" | sort: "year" %}
 {% include list.html data=mss component="portrait" %}
 
 ## Alumni
-{% assign alumni = site.members | where: "role", "alu" | sort: "year" %}
+{% assign alumni = "members" | where: "role", "alu" | sort: "year" %}
 {% include list.html data=alumni component="portrait" %}
 
 
