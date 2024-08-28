@@ -735,7 +735,7 @@
 
     
       <span class="portrait-description">
-        PhD Student
+        (co-advised)
       </span>
     
 
@@ -780,7 +780,7 @@
 
     
       <span class="portrait-description">
-        PhD Student
+        (co-advised)
       </span>
     
 
@@ -826,51 +826,6 @@
     
       <span class="portrait-description">
         PhD Student
-      </span>
-    
-
-    
-  </a>
-</div>
-
-  
-    
-
-    
-
-
-
-<div class="portrait-wrapper">
-  <a
-    
-      href="/members/jiangwei-weng.html"
-    
-    class="portrait"
-    data-style=""
-    aria-label="Jiangwei Weng"
-  >
-    
-      <i class="icon fa-solid fa-graduation-cap"></i>
-    
-
-    <img
-      src="/images/team/media/35b90798-35c4-4a4d-8fe3-67e07f2c417d.png"
-      class="portrait-image"
-      alt="member portrait"
-      loading="lazy"
-      onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
-
-    >
-
-    
-      <span class="portrait-name">
-        Jiangwei Weng
-      </span>
-    
-
-    
-      <span class="portrait-description">
-        test
       </span>
     
 
@@ -978,6 +933,51 @@
 <div class="portrait-wrapper">
   <a
     
+      href="/members/Suyi-Li.html"
+    
+    class="portrait"
+    data-style=""
+    aria-label="Suyi Li"
+  >
+    
+      <i class="icon fa-solid fa-graduation-cap"></i>
+    
+
+    <img
+      src="/images/photo.png"
+      class="portrait-image"
+      alt="member portrait"
+      loading="lazy"
+      onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
+
+    >
+
+    
+      <span class="portrait-name">
+        Suyi Li
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        2024秋季硕博连读
+      </span>
+    
+
+    
+  </a>
+</div>
+
+  
+    
+
+    
+
+
+
+<div class="portrait-wrapper">
+  <a
+    
       href="/members/wenxuan-fang.html"
     
     class="portrait"
@@ -1050,7 +1050,7 @@
 
     
       <span class="portrait-description">
-        PhD Student
+        (co-advised)
       </span>
     
 
@@ -1412,6 +1412,10 @@
       </span>
     
 
+    
+      <span class="portrait-description">
+        博士后
+      </span>
     
 
     
