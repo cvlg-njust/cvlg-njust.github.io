@@ -16,16 +16,18 @@ nav:
 {% endcapture %}
 
 {% include section.html %}
-## Professor
-{% include list.html data="members" component="portrait" filters="role: prof" %}
-## Ph.D. Candidates
-{% include list.html data="members" component="portrait" filters="role: phd" %}
-## Research Assistant
-{% include list.html data="members" component="portrait" filters="role: ra" %}
-## M.S. Candidates
-{% include list.html data="members" component="portrait" filters="role: ms" %}
-## Alumni
-{% include list.html data="members" component="portrait" filters="role: alu" %}
+
+{% assign roles = "prof,phd,ra,ms,alu" | split: "," %}
+
+{% for role in roles %}
+  <h2>{{ role | capitalize }}</h2>
+  {% assign filtered_members = site.data.members | where: "role", role %}
+  {% assign sorted_members = filtered_members | sort: "year" %}
+  
+  {% for member in sorted_members %}
+    {% include list.html data=member component="portrait" %}
+  {% endfor %}
+{% endfor %}
 
 {% include section.html background="images/computer_vision.jpg" dark=true %}
 
