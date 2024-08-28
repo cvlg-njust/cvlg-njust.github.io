@@ -366,61 +366,24 @@
 </head>
 
   <body>
-    
-
-
-
-
-
-
-
-<header class="background" style="--image: url('/images/background.jpg')" data-dark="true" data-big>
-  <a href="/" class="home">
+    <div class="carousel">
     
     
-      <span class="title-text" data-tooltip="Home">
-        
-          <span class="title">Creative Vision&amp;Learning Group@PCA Lab</span>
-        
-        
-      </span>
-    
-  </a>
+    <!-- Navigation buttons -->
+    <a class="prev" onclick="changeSlide(-1)">❮</a>
+    <a class="next" onclick="changeSlide(1)">❯</a>
 
-  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
-
-  <nav>
-    
-    <!-- 添加主页链接 -->
-    <a href="https://cvlg-njust.github.io/" class="home-link">Home</a>
-    
+    <div class="carousel-indicators">
       
-        <a href="/projects/" data-tooltip="Software, datasets, and more">
-          Research
-        </a>
+        <span class="dot active" onclick="currentSlide('0')"></span>
       
-    
+        <span class="dot " onclick="currentSlide('1')"></span>
       
-        <a href="/team/" data-tooltip="About our team">
-          Team
-        </a>
+        <span class="dot " onclick="currentSlide('2')"></span>
       
-    
-      
-        <a href="/research/" data-tooltip="Published works">
-          Publication
-        </a>
-      
-    
-      
-        <a href="/contact/" data-tooltip="Email, address, and location">
-          Contact
-        </a>
-      
-    
-  </nav>
-</header>
-
+    </div>
+  </div>
+  
     <main>
       <!--
   modify main content of page:
