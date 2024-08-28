@@ -17,28 +17,15 @@ nav:
 
 {% include section.html %}
 ## Professor
-{% assign professors = site.members | where: "role", "prof" | sort: "year" %}
-{% for professor in professors %}
-  <!-- 包含每个教授的信息 -->
-  {% include list.html data=professor component="portrait" %}
-{% endfor %}
-
+{% include list.html data="members" component="portrait" filters="role: prof" %}
 ## Ph.D. Candidates
-{% assign phds = "members" | where: "role", "phd" | sort: "year" %}
-{% include list.html data=phds component="portrait" %}
-
+{% include list.html data="members" component="portrait" filters="role: phd" %}
 ## Research Assistant
-{% assign ras = "members" | where: "role", "ra" | sort: "year" %}
-{% include list.html data=ras component="portrait" %}
-
+{% include list.html data="members" component="portrait" filters="role: ra" %}
 ## M.S. Candidates
-{% assign mss = "members" | where: "role", "ms" | sort: "year" %}
-{% include list.html data=mss component="portrait" %}
-
+{% include list.html data="members" component="portrait" filters="role: ms" %}
 ## Alumni
-{% assign alumni = "members" | where: "role", "alu" | sort: "year" %}
-{% include list.html data=alumni component="portrait" %}
-
+{% include list.html data="members" component="portrait" filters="role: alu" %}
 
 {% include section.html background="images/computer_vision.jpg" dark=true %}
 

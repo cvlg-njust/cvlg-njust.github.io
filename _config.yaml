@@ -39,6 +39,7 @@ collections:
   # generate page for each member
   members:
     output: true
+    sort_by: 'year'
   # generate page for each post
   posts:
     output: true
