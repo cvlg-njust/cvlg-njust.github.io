@@ -1,7 +1,7 @@
 ---
 name: Zedong Zhang
 image: images/photo.png
-role: ?
+role: tmp
 affiliation: Nanjing Univiersity of Science and Technology
 aliases:
   - Jun Li
