@@ -17,8 +17,11 @@ nav:
 
 {% include section.html %}
 ## Professor
-{% assign professors = site.data.members | where: "role", "prof" | sort: "year" %}
-{% include list.html data=professors component="portrait" %}
+{% assign professors = site.members | where: "role", "prof" | sort: "year" %}
+{% for professor in professors %}
+  <!-- 包含每个教授的信息 -->
+  {% include list.html data=professor component="portrait" %}
+{% endfor %}
 
 ## Ph.D. Candidates
 {% assign phds = "members" | where: "role", "phd" | sort: "year" %}
