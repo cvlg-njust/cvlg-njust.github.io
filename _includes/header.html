@@ -13,45 +13,46 @@
       {% for slide in site.data.slides %}
         <div class="carousel-item {% if forloop.first %}active{% endif %}">
           <img src="{{ slide.image | escape }}" alt="Slide {{ forloop.index }}">
+          <a href="{{ "/" | relative_url }}" class="home" style="position: absolute;top: 50%">
+            {% if site.logo-text != false %}
+              <span class="title-text" data-tooltip="Home">
+                {% if site.title and site.show-title != false %}
+                  <span class="title">{{ site.title }}</span>
+                {% endif %}
+                {% if site.subtitle and site.show-subtitle != false %}
+                  <span class="subtitle">{{ site.subtitle }}</span>
+                {% endif %}
+              </span>
+            {% endif %}
+          </a>
+        
+          <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+        
+          <nav>
+            {% assign pages = site.pages
+              | where_exp: "page", "page.nav"
+              | sort: "nav.order"
+            %}
+            <!-- 添加主页链接 -->
+            <a href="{{ '/' | absolute_url }}" class="home-link">Home</a>
+            {% for page in pages %}
+              {% if page.nav %}
+                <a
+                  href="{{ page.dir | relative_url }}"
+                  data-tooltip="{{ page.nav.tooltip }}"
+                >
+                  {{ page.title }}
+                </a>
+              {% endif %}
+            {% endfor %}
+          </nav>
           <div class="carousel-caption">
             {{ slide.caption | escape }}
           </div>
         </div>
       {% endfor %}
 
-      <a href="{{ "/" | relative_url }}" class="home" style="position: absolute;top: 50%">
-        {% if site.logo-text != false %}
-          <span class="title-text" data-tooltip="Home">
-            {% if site.title and site.show-title != false %}
-              <span class="title">{{ site.title }}</span>
-            {% endif %}
-            {% if site.subtitle and site.show-subtitle != false %}
-              <span class="subtitle">{{ site.subtitle }}</span>
-            {% endif %}
-          </span>
-        {% endif %}
-      </a>
-    
-      <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
-    
-      <nav>
-        {% assign pages = site.pages
-          | where_exp: "page", "page.nav"
-          | sort: "nav.order"
-        %}
-        <!-- 添加主页链接 -->
-        <a href="{{ '/' | absolute_url }}" class="home-link">Home</a>
-        {% for page in pages %}
-          {% if page.nav %}
-            <a
-              href="{{ page.dir | relative_url }}"
-              data-tooltip="{{ page.nav.tooltip }}"
-            >
-              {{ page.title }}
-            </a>
-          {% endif %}
-        {% endfor %}
-      </nav>
+      
 
       <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
       <a class="next" onclick="changeSlide(1)">&#10095;</a>
