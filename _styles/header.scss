@@ -223,7 +223,7 @@ header[data-big] {
       height: 400px; /* 自动调整高度 */
       object-fit: cover; /* 保证图片裁剪后依然保持比例 */
     }
-    
+
     &::before {
       content: '';
       position: absolute;
@@ -330,6 +330,7 @@ header[data-big] {
   
   .ca-title {
     position: absolute;
+    width: 100%; /* 根据容器需要调整宽度 */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
