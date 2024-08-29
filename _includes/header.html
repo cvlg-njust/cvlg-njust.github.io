@@ -15,6 +15,10 @@
   {% if page.url == "/" %}
     data-big
   {% endif %}
+
+  {% if page.url == "/" %}
+    {% include carousel.html slides=site.data.slides %}
+  {% endif %}
 >
   <a href="{{ "/" | relative_url }}" class="home">
     {% if logo %}
