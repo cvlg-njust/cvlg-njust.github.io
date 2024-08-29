@@ -200,6 +200,7 @@ header[data-big] .subtitle {
   text-align: center;
 }
 .carousel .prev, .carousel .next {
+  cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
@@ -245,6 +246,7 @@ header[data-big] .subtitle {
   background-color: rgba(155, 26, 134, 0.5);
 }
 .carousel .ca-home {
+  position: absolute;
   display: inline-flex;
   justify-content: flex-start;
   align-items: center;
@@ -254,6 +256,7 @@ header[data-big] .subtitle {
   max-width: 100%;
 }
 .carousel .ca-title-text {
+  position: absolute;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -264,11 +267,12 @@ header[data-big] .subtitle {
   text-align: left;
 }
 .carousel .ca-title {
+  position: absolute;
   font-size: var(--large);
 }
 .carousel .ca-nav-toggle {
   display: none;
-  position: relative;
+  position: absolute;
   width: 30px;
   height: 30px;
   margin: 0;
@@ -291,6 +295,7 @@ header[data-big] .subtitle {
   content: "\f00d";
 }
 .carousel ca-nav {
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
