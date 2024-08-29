@@ -165,7 +165,7 @@ $background-color: #ffffff;
     margin-top: 5px; /* 会议名称和标题之间添加间距 */
     opacity: 0; /* 初始状态下会议名称不可见 */
     transition: opacity 0.3s ease; /* 添加透明度过渡效果 */
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.3);
   }
 
   &:hover .slider-caption {
