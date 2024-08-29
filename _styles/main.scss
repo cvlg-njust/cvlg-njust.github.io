@@ -20,7 +20,7 @@ main {
 
     img {
       width: 100%;  /* 保证图片宽度为容器的宽度 */
-      height: 600px; /* 自动调整高度 */
+      height: 400px; /* 自动调整高度 */
       object-fit: cover; /* 保证图片裁剪后依然保持比例 */
     }
 
