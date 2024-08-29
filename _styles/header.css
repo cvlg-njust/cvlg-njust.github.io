@@ -200,7 +200,6 @@ header[data-big] .subtitle {
   text-align: center;
 }
 .carousel .prev, .carousel .next {
-  cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
@@ -288,10 +287,10 @@ header[data-big] .subtitle {
   font-weight: 900;
   transform: translate(-50%, -50%);
 }
-.carousel .nav-toggle:checked:after {
+.carousel .ca-nav-toggle:checked:after {
   content: "\f00d";
 }
-.carousel nav {
+.carousel ca-nav {
   display: flex;
   justify-content: center;
   align-items: center;
