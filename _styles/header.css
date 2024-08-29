@@ -187,6 +187,16 @@ header[data-big] .subtitle {
   height: 400px; /* 自动调整高度 */
   object-fit: cover; /* 保证图片裁剪后依然保持比例 */
 }
+.carousel .carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(200, 200, 200, 0.3); /* 浅灰色 */
+  pointer-events: none; /* 允许鼠标穿透这个层 */
+}
 .carousel .carousel-item.active {
   display: inline-flex;
 }
