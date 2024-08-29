@@ -12,27 +12,6 @@
   {% if dark == true or dark == false %}
     data-dark="{{ dark }}"
   {% endif %}
-  {% if page.url == "/" %}
-    <!-- 轮播图开始 -->
-    <div id="carousel" class="carousel">
-      {% for slide in site.data.slides %}
-        <div class="carousel-item">
-          <img src="{{ slide.image | relative_url }}" alt="{{ slide.alt | default: 'Slide Image' }}">
-          {% if slide.caption %}
-            <div class="carousel-caption">{{ slide.caption }}</div>
-          {% endif %}
-        </div>
-      {% endfor %}
-    </div>
-    <!-- 轮播图结束 -->
-  {% else %}
-    <!-- 非首页显示背景图片 -->
-    <style>
-      .background {
-        background-image: url('{{ image }}');
-      }
-    </style>
-  {% endif %}
 >
   <a href="{{ "/" | relative_url }}" class="home">
     {% if logo %}
