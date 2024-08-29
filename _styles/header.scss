@@ -239,6 +239,7 @@ header[data-big] {
   }
   
   .prev, .next {
+    cursor: pointer;
     position: absolute;
     top: 50%;
     width: auto;
@@ -291,6 +292,7 @@ header[data-big] {
   }
   
   .ca-home {
+    position: absolute;
     display: inline-flex;
     justify-content: flex-start;
     align-items: center;
@@ -301,6 +303,7 @@ header[data-big] {
   }
 
   .ca-title-text {
+    position: absolute;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -312,12 +315,13 @@ header[data-big] {
   }
 
   .ca-title {
+    position: absolute;
     font-size: var(--large);
   }
 
   .ca-nav-toggle {
     display: none;
-    position: relative;
+    position: absolute;
     width: 30px;
     height: 30px;
     margin: 0;
@@ -343,6 +347,7 @@ header[data-big] {
   }
 
   ca-nav {
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
