@@ -336,7 +336,7 @@ header[data-big] .subtitle {
   text-transform: uppercase;
 }
 .carousel nav {
-  background-color: rgb(147, 112, 219); /* 设置淡紫色背景，透明度为0.7 */
+  background-color: #841983; /* 设置淡紫色背景，透明度为0.7 */
   text-align: center; /* 水平居中对齐内部内容 */
   margin: 0 auto; /* 让 nav 自动居中 */
   padding: 0; /* 移除不必要的 padding */

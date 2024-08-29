@@ -146,7 +146,7 @@ main {
 .slider-container .slider-item:hover .slider-conference {
   opacity: 1; /* 悬停时显示会议名称 */
 }
-.slider-container .prev, .slider-container .next {
+.slider-container .slider-prev, .slider-container .slider-next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -162,14 +162,14 @@ main {
   border-radius: 50%;
   z-index: 10;
 }
-.slider-container .prev:hover, .slider-container .next:hover {
+.slider-container .slider-prev:hover, .slider-container .slider-next:hover {
   background-color: rgb(147, 112, 219); /* 悬停时加深颜色 */
 }
-.slider-container .prev {
-  left: -50px; /* 将左边切换键移到图片区域外 */
+.slider-container .slider-prev {
+  left: 50px; /* 将左边切换键移到图片区域外 */
 }
-.slider-container .next {
-  right: -50px; /* 将右边切换键移到图片区域外 */
+.slider-container .slider-next {
+  right: 50px; /* 将右边切换键移到图片区域外 */
 }
 
 /*# sourceMappingURL=main.css.map */
