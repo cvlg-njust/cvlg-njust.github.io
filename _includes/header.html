@@ -19,14 +19,6 @@
         </div>
       {% endfor %}
 
-      <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
-      <a class="next" onclick="changeSlide(1)">&#10095;</a>
-  
-      <div class="carousel-indicators">
-        {% for slide in site.data.slides %}
-          <span class="dot {% if forloop.first %}active{% endif %}" onclick="currentSlide('{{ forloop.index0 }}')"></span>
-        {% endfor %}
-      </div>
       <a href="{{ "/" | relative_url }}" class="home">
         {% if logo %}
           <span class="logo">
@@ -69,6 +61,16 @@
           {% endif %}
         {% endfor %}
       </nav>
+
+      <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+      <a class="next" onclick="changeSlide(1)">&#10095;</a>
+  
+      <div class="carousel-indicators">
+        {% for slide in site.data.slides %}
+          <span class="dot {% if forloop.first %}active{% endif %}" onclick="currentSlide('{{ forloop.index0 }}')"></span>
+        {% endfor %}
+      </div>
+      
     </div>
   </header>
 {% else %}
