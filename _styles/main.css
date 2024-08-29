@@ -92,6 +92,8 @@ main {
   max-width: 1000px; /* 根据需要调整宽度 */
   margin: auto;
   overflow: hidden; /* 隐藏溢出的部分 */
+  display: flex;
+  align-items: center; /* 使切换键与图片区域对齐 */
 }
 .slider-container .slider-wrapper {
   display: flex;
@@ -101,6 +103,10 @@ main {
   flex: 0 0 33.33%; /* 每个 item 占据三分之一的空间 */
   position: relative;
   overflow: hidden; /* 确保子元素不会溢出 */
+  margin-right: 10px; /* 图片之间的空隙 */
+}
+.slider-container .slider-item:last-child {
+  margin-right: 0; /* 移除最后一个图片的右边距 */
 }
 .slider-container .slider-item img {
   width: 100%;
@@ -151,20 +157,18 @@ main {
   font-weight: bold;
   font-size: 24px;
   user-select: none;
-  background-color: rgba(0, 0, 0, 0.5); /* 半透明背景 */
-  border-radius: 0 3px 3px 0;
+  background-color: rgba(147, 112, 219, 0.7); /* 浅紫色背景 */
+  border-radius: 50%;
   z-index: 10;
 }
 .slider-container .prev:hover, .slider-container .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgb(147, 112, 219); /* 悬停时加深颜色 */
 }
 .slider-container .prev {
-  left: 0;
-  border-radius: 3px 0 0 3px;
+  left: -50px; /* 将左边切换键移到图片区域外 */
 }
 .slider-container .next {
-  right: 0;
-  border-radius: 0 3px 3px 0;
+  right: -50px; /* 将右边切换键移到图片区域外 */
 }
 
 /*# sourceMappingURL=main.css.map */
