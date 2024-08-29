@@ -3,7 +3,7 @@
 
 <!-- # Creative Vision&Learning Group@PCA Lab -->
 
-{% include carousel.html slides=site.data.slides %}
+<!-- {% include carousel.html slides=site.data.slides %} -->
 
 ## Resent Works
 
