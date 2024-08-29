@@ -1,0 +1,54 @@
+.image-slider {
+    display: flex;
+    overflow: hidden;
+    gap: 10px;
+  
+    .slider-item {
+      position: relative;
+      width: 300px; /* 每个图片的宽度 */
+      height: 200px; /* 每个图片的高度 */
+      overflow: hidden;
+  
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+  
+      .info {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        transition: all 0.3s ease-in-out;
+  
+        .title {
+          font-size: 16px;
+          margin: 0;
+        }
+  
+        .conference {
+          font-size: 14px;
+          margin: 0;
+          opacity: 0;
+          transform: translateY(20px);
+          transition: all 0.3s ease-in-out;
+        }
+      }
+  
+      &:hover .info {
+        bottom: 50%; /* 移动到图片中央 */
+        background: rgba(0, 0, 0, 0.7);
+        transform: translateY(50%);
+      }
+  
+      &:hover .conference {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  }
+  
