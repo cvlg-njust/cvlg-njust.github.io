@@ -1,3 +1,4 @@
+@charset "UTF-8";
 header {
   display: flex;
   justify-content: space-between;
@@ -140,6 +141,81 @@ header[data-big] .title {
 }
 header[data-big] .subtitle {
   font-size: var(--large);
+}
+
+header[h-carousel] {
+  position: relative;
+  max-width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+header[h-carousel] .carousel-item {
+  background-color: rgba(95, 94, 94, 0.5);
+  display: none;
+  text-align: center;
+}
+header[h-carousel] .carousel-item img {
+  width: 100%; /* 保证图片宽度为容器的宽度 */
+  height: 600px; /* 自动调整高度 */
+  object-fit: cover; /* 保证图片裁剪后依然保持比例 */
+}
+header[h-carousel] .carousel-item.active {
+  display: block;
+}
+header[h-carousel] .carousel-caption {
+  background-color: rgba(109, 108, 109, 0.5); /* 这是一个半透明的黑色背景，你可以调整 */
+  color: white;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+header[h-carousel] .prev, header[h-carousel] .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: gray;
+  font-weight: bold;
+  font-size: 24px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+header[h-carousel] .prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+header[h-carousel] .next {
+  right: 0;
+  border-radius: 0 3px 3px 0;
+}
+header[h-carousel] .prev:hover, header[h-carousel] .next:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+header[h-carousel] .carousel-indicators {
+  position: absolute;
+  right: 10px; /* 调整为距离右边10px */
+  bottom: 10px; /* 调整为距离底部10px */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; /* 小圆点向右对齐 */
+}
+header[h-carousel] .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+header[h-carousel] .dot.active {
+  background-color: rgba(155, 26, 134, 0.5);
 }
 
 /*# sourceMappingURL=header.css.map */
