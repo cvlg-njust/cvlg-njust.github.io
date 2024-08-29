@@ -251,7 +251,7 @@ header[data-big] .subtitle {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10; /* 确保它在其他元素之上 */
-  display: inline-flex;
+  display: block;
   justify-content: center; /* 水平居中 */
   align-items: center; /* 垂直居中 */
   gap: 10px;
