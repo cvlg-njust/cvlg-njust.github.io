@@ -117,6 +117,7 @@ $background-color: #ffffff;
   .slider-item {
     flex: 0 0 33.33%; /* 每个 item 占据三分之一的空间 */
     position: relative;
+    overflow: hidden; /* 确保子元素不会溢出 */
 
     img {
       width: 100%;
@@ -132,20 +133,25 @@ $background-color: #ffffff;
       color: white;
       padding: 10px;
       text-align: center;
-      display: none; /* 初始状态下隐藏 */
+      transition: transform 0.3s ease, opacity 0.3s ease; /* 添加过渡效果 */
+      transform: translateY(100%); /* 初始状态下移出视图 */
+      opacity: 0; /* 初始状态下透明 */
     }
 
     &:hover .slider-caption {
-      display: block; /* 鼠标悬停时显示 */
+      transform: translateY(0); /* 悬停时移动回视图 */
+      opacity: 1; /* 悬停时显示 */
     }
-  }
 
-  .slider-title {
-    font-size: 1.2rem;
-  }
+    .slider-title {
+      font-size: 1.2rem;
+      margin-bottom: 0; /* 标题的下边距为0 */
+    }
 
-  .slider-conference {
-    font-size: 1rem;
+    .slider-conference {
+      font-size: 1rem;
+      margin-top: 5px; /* 会议名称和标题之间添加间距 */
+    }
   }
 
   .prev, .next {
@@ -178,7 +184,6 @@ $background-color: #ffffff;
     border-radius: 0 3px 3px 0;
   }
 }
-
 
 
 
