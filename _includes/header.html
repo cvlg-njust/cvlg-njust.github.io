@@ -59,7 +59,7 @@
   
 </header>
 {% if page.url == "/" %}
-  <header>
+  <header class="scroll-header">
     <div class="carousel">
       {% for slide in site.data.slides %}
         <div class="carousel-item {% if forloop.first %}active{% endif %}">
