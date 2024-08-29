@@ -333,6 +333,15 @@ header[data-big] .subtitle {
   font-family: var(--heading);
   text-transform: uppercase;
 }
+.carousel nav {
+  margin: 0 auto; /* 让 nav 自动居中 */
+  padding: 0; /* 移除不必要的 padding */
+  width: 100%; /* 占满父容器宽度 */
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  width: 100%; /* 占满父容器宽度 */
+}
 .carousel nav > a {
   padding: 5px;
   display: inline-flex;
