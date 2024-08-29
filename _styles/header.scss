@@ -217,11 +217,13 @@ header[data-big] {
     background-color: rgba(95, 94, 94, 0.5); 
     display: inline-flex;
     text-align: center;
+    overflow: hidden;
 
     img {
-      width: auto;  /* 保证图片宽度为容器的宽度 */
+      width: 100%;  /* 保证图片宽度为容器的宽度 */
       height: 400px; /* 自动调整高度 */
       object-fit: cover; /* 保证图片裁剪后依然保持比例 */
+      z-index: 1;
     }
 
     &::before {
@@ -308,7 +310,7 @@ header[data-big] {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10; /* 确保它在其他元素之上 */
-    display: block;
+    display: flex;
     justify-content: center; /* 水平居中 */
     align-items: center; /* 垂直居中 */
     gap: 10px;
@@ -329,6 +331,9 @@ header[data-big] {
   }
   
   .ca-title {
+    white-space: nowrap;
+    color: white;
+    margin-left: 10px; /* 根据需要调整标题的位置 */
     position: absolute;
     width: auto; /* 根据容器需要调整宽度 */
     top: 50%;
