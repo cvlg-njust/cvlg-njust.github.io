@@ -388,6 +388,10 @@ header[data-big] {
   }
 
   nav {
+    background-color: rgba(147, 112, 219, 0.7); /* 设置淡紫色背景，透明度为0.7 */
+    color: white; /* 将字体颜色设置为白色 */
+    padding: 10px; /* 根据需要添加内边距 */
+    text-align: center; /* 水平居中对齐内部内容 */
     margin: 0 auto; /* 让 nav 自动居中 */
     padding: 0; /* 移除不必要的 padding */
     width: 100%; /* 占满父容器宽度 */
