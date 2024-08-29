@@ -331,6 +331,8 @@ header[data-big] {
   }
   
   .ca-title {
+    font-size: 2rem; /* 调整标题字体大小 */
+    font-weight: bold; /* 可选：加粗标题 */
     white-space: nowrap;
     color: white;
     margin-left: 10px; /* 根据需要调整标题的位置 */
@@ -389,7 +391,7 @@ header[data-big] {
 
   nav {
     background-color: rgba(147, 112, 219, 0.7); /* 设置淡紫色背景，透明度为0.7 */
-    color: white; /* 将字体颜色设置为白色 */
+    
     padding: 10px; /* 根据需要添加内边距 */
     text-align: center; /* 水平居中对齐内部内容 */
     margin: 0 auto; /* 让 nav 自动居中 */
@@ -402,6 +404,8 @@ header[data-big] {
   }
   
   nav > a {
+    font-size: 1.5rem; /* 调整 Nav 字体大小 */
+    color: white; /* 将字体颜色设置为白色 */
     padding: 5px;
     display: inline-flex;
     justify-content: center; /* 水平居中 */
