@@ -29,7 +29,7 @@ header a {
 }
 
 .home {
-  display: flex;
+  display: inline-flex;
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
@@ -105,6 +105,7 @@ nav {
 
 nav > a {
   padding: 5px;
+  display: inline-flex;
 }
 
 nav > a:hover {
@@ -213,7 +214,7 @@ header[data-big] {
 
   .carousel-item {
     background-color: rgba(95, 94, 94, 0.5); 
-    display: flex;
+    display: inline-flex;
     text-align: center;
 
     img {
@@ -223,7 +224,7 @@ header[data-big] {
     }
 
     &.active {
-      display: flex;
+      display: inline-flex;
     }
   }
   .carousel-caption {
