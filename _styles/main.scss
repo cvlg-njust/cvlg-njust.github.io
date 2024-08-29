@@ -105,7 +105,7 @@ $background-color: #ffffff;
 .slider-container {
   position: relative;
   width: 100%;
-  max-width: 1000px; /* 你可以根据需要调整宽度 */
+  max-width: 1000px; /* 根据需要调整宽度 */
   margin: auto;
   overflow: hidden; /* 隐藏溢出的部分 */
 
@@ -133,14 +133,9 @@ $background-color: #ffffff;
       color: white;
       padding: 10px;
       text-align: center;
+      transform: translateY(0); /* 初始状态显示在底部 */
       transition: transform 0.3s ease, opacity 0.3s ease; /* 添加过渡效果 */
-      transform: translateY(100%); /* 初始状态下移出视图 */
-      opacity: 0; /* 初始状态下透明 */
-    }
-
-    &:hover .slider-caption {
-      transform: translateY(0); /* 悬停时移动回视图 */
-      opacity: 1; /* 悬停时显示 */
+      opacity: 1; /* 初始状态下标题可见 */
     }
 
     .slider-title {
@@ -151,6 +146,16 @@ $background-color: #ffffff;
     .slider-conference {
       font-size: 1rem;
       margin-top: 5px; /* 会议名称和标题之间添加间距 */
+      opacity: 0; /* 初始状态下会议名称不可见 */
+      transition: opacity 0.3s ease; /* 添加透明度过渡效果 */
+    }
+
+    &:hover .slider-caption {
+      transform: translateY(-100%); /* 悬停时标题和会议名称一起升起 */
+    }
+
+    &:hover .slider-conference {
+      opacity: 1; /* 悬停时显示会议名称 */
     }
   }
 
@@ -184,6 +189,7 @@ $background-color: #ffffff;
     border-radius: 0 3px 3px 0;
   }
 }
+
 
 
 
