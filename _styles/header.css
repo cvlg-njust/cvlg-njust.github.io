@@ -247,6 +247,10 @@ header[data-big] .subtitle {
 }
 .carousel .ca-home {
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10; /* 确保它在其他元素之上 */
   display: inline-flex;
   justify-content: flex-start;
   align-items: center;
