@@ -1,0 +1,9 @@
+- image: images/mambaLLIE.png
+  title: title1
+  conference: conference1
+- image: images/tp2o.png
+  title: title2
+  conference: conference2
+- image: images/aith.png
+  title: title3
+  conference: conference3
