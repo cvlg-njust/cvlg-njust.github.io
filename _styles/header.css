@@ -148,7 +148,6 @@ header[data-big] .subtitle {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 100px 20px;
 }
 .scroll-header .home {
   flex-direction: column;
@@ -167,10 +166,6 @@ header[data-big] .subtitle {
 }
 .scroll-header .subtitle {
   font-size: var(--large);
-}
-
-header + header {
-  margin-top: 0; /* 确保两个 header 之间没有外边距 */
 }
 
 /*# sourceMappingURL=header.css.map */
