@@ -282,7 +282,7 @@ header[data-big] .subtitle {
   text-align: center; /* 中心对齐文本 */
 }
 .carousel .ca-title {
-  font-size: 3rem; /* 调整标题字体大小 */
+  font-size: 5rem; /* 调整标题字体大小 */
   font-weight: bold; /* 可选：加粗标题 */
   white-space: nowrap;
   color: white;
