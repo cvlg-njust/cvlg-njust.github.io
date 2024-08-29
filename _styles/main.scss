@@ -170,7 +170,7 @@ $background-color: #ffffff;
     }
   }
 
-  .prev, .next {
+  .slider-prev, .slider-next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -191,11 +191,11 @@ $background-color: #ffffff;
     }
   }
 
-  .prev {
+  .slider-prev {
     left: -50px; /* 将左边切换键移到图片区域外 */
   }
 
-  .next {
+  .slider-next {
     right: -50px; /* 将右边切换键移到图片区域外 */
   }
 }
