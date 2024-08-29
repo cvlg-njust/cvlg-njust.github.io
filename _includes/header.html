@@ -56,4 +56,24 @@
       {% endif %}
     {% endfor %}
   </nav>
+  <div class="carousel">
+    {% for slide in include.slides %}
+      <div class="carousel-item {% if forloop.first %}active{% endif %}">
+        <img src="{{ slide.image }}" alt="Slide {{ forloop.index }}">
+        <div class="carousel-caption">
+          {{ slide.caption }}
+        </div>
+      </div>
+    {% endfor %}
+    
+    <!-- Navigation buttons -->
+    <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+    <a class="next" onclick="changeSlide(1)">&#10095;</a>
+
+    <div class="carousel-indicators">
+      {% for slide in site.data.slides %}
+        <span class="dot {% if forloop.first %}active{% endif %}" onclick="currentSlide('{{ forloop.index0 }}')"></span>
+      {% endfor %}
+    </div>
+  </div>
 </header>
