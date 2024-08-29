@@ -15,7 +15,7 @@ header a {
 }
 
 .home {
-  display: flex;
+  display: inline-flex;
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
@@ -91,6 +91,7 @@ nav {
 
 nav > a {
   padding: 5px;
+  display: inline-flex;
 }
 
 nav > a:hover {
@@ -177,7 +178,7 @@ header[data-big] .subtitle {
 }
 .carousel .carousel-item {
   background-color: rgba(95, 94, 94, 0.5);
-  display: flex;
+  display: inline-flex;
   text-align: center;
 }
 .carousel .carousel-item img {
@@ -186,7 +187,7 @@ header[data-big] .subtitle {
   object-fit: cover; /* 保证图片裁剪后依然保持比例 */
 }
 .carousel .carousel-item.active {
-  display: flex;
+  display: inline-flex;
 }
 .carousel .carousel-caption {
   background-color: rgba(109, 108, 109, 0.5); /* 这是一个半透明的黑色背景，你可以调整 */
