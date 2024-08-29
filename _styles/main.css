@@ -166,10 +166,10 @@ main {
   background-color: rgb(147, 112, 219); /* 悬停时加深颜色 */
 }
 .slider-container .slider-prev {
-  left: 50px; /* 将左边切换键移到图片区域外 */
+  left: -50px; /* 将左边切换键移到图片区域外 */
 }
 .slider-container .slider-next {
-  right: 50px; /* 将右边切换键移到图片区域外 */
+  right: -50px; /* 将右边切换键移到图片区域外 */
 }
 
 /*# sourceMappingURL=main.css.map */
