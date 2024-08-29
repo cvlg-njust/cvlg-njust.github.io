@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" data-dark="false">
   {% include head.html %}
-  {% if page.url == "/" %}
-    {% include carousel.html slides=site.data.slides %}
-  {% endif %}
+  
   <body>
     {% include header.html %}
+    {% if page.url == "/" %}
+    {% include carousel.html slides=site.data.slides %}
+    {% endif %}
     <main>
       {% include content.html content=content %}
     </main>

@@ -6,7 +6,7 @@
 
 ## Resent Works
 
-{% include carousel.html slides=site.data.slides %}
+
 
 {% include news.html %}
 <!-- 
