@@ -140,18 +140,18 @@ main {
 .slider-item .slider-title {
   font-size: 1.2rem;
   margin-bottom: 0; /* 标题的下边距为0 */
-  background-color: rgba(0, 0, 0, 0.3);
 }
 .slider-item .slider-conference {
   font-size: 1rem;
   margin-top: 5px; /* 会议名称和标题之间添加间距 */
   opacity: 0; /* 初始状态下会议名称不可见 */
   transition: opacity 0.3s ease; /* 添加透明度过渡效果 */
+  background-color: rgba(0, 0, 0, 0.3);
 }
 .slider-item:hover .slider-caption {
   transform: translateY(0); /* 悬停时向上移动，显示完整标题和会议名称 */
   height: 100%; /* 悬停时展开到全高度 */
-  background-color: rgba(0, 0, 0, 0.603);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .slider-item:hover .slider-conference {
   opacity: 1; /* 悬停时显示会议名称 */
