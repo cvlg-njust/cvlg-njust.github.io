@@ -252,31 +252,37 @@ header[data-big] .subtitle {
   transform: translate(-50%, -50%);
   z-index: 10; /* 确保它在其他元素之上 */
   display: inline-flex;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
   gap: 10px;
-  flex-basis: 0;
-  flex-grow: 1;
-  max-width: 100%;
 }
 .carousel .ca-title-text {
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
   flex-wrap: wrap;
   gap: 5px;
-  min-width: 0;
   font-family: var(--title);
-  text-align: left;
+  text-align: center; /* 中心对齐文本 */
 }
 .carousel .ca-title {
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: var(--large);
+  text-align: center; /* 中心对齐文本 */
 }
 .carousel .ca-nav-toggle {
-  display: none;
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none; /* 如果需要显示时，可以通过 JavaScript 控制 */
   width: 30px;
   height: 30px;
   margin: 0;
@@ -289,20 +295,23 @@ header[data-big] .subtitle {
   position: absolute;
   left: 50%;
   top: 50%;
+  transform: translate(-50%, -50%);
   color: var(--text);
   font-size: 15px;
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
-  transform: translate(-50%, -50%);
 }
 .carousel .ca-nav-toggle:checked:after {
   content: "\f00d";
 }
-.carousel ca-nav {
+.carousel .ca-nav {
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
   flex-wrap: wrap;
   gap: 10px;
   font-family: var(--heading);
@@ -311,6 +320,8 @@ header[data-big] .subtitle {
 .carousel nav > a {
   padding: 5px;
   display: inline-flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
 }
 .carousel nav > a:hover {
   color: var(--primary);
