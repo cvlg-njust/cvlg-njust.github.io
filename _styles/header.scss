@@ -219,7 +219,7 @@ header[data-big] {
     text-align: center;
 
     img {
-      width: 100%;  /* 保证图片宽度为容器的宽度 */
+      width: auto;  /* 保证图片宽度为容器的宽度 */
       height: 400px; /* 自动调整高度 */
       object-fit: cover; /* 保证图片裁剪后依然保持比例 */
     }
@@ -330,7 +330,7 @@ header[data-big] {
   
   .ca-title {
     position: absolute;
-    width: 100%; /* 根据容器需要调整宽度 */
+    width: auto; /* 根据容器需要调整宽度 */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
