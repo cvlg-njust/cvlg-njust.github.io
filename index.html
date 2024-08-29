@@ -478,9 +478,13 @@
 
   <section class="background" data-size="page">
     <h2 id="recent-works">Recent works</h2>
-<div class="slider-container">
-  <div class="slider-wrapper">
-    
+<div class="slider-container-wrapper">
+  <a href="#" class="prev" onclick="changeSlide(-1)">❮</a>
+  
+  <div class="slider-container">
+    <div class="slider-wrapper">
+      <!-- Slide Items -->
+      
       <div class="slider-item">
         <img src="images/mambaLLIE.png" alt="title1">
         <div class="slider-caption">
@@ -488,7 +492,7 @@
           <p class="slider-conference">conference1</p>
         </div>
       </div>
-    
+      
       <div class="slider-item">
         <img src="images/tp2o.png" alt="title2">
         <div class="slider-caption">
@@ -496,7 +500,7 @@
           <p class="slider-conference">conference2</p>
         </div>
       </div>
-    
+      
       <div class="slider-item">
         <img src="images/aith.png" alt="title3">
         <div class="slider-caption">
@@ -504,7 +508,7 @@
           <p class="slider-conference">conference3</p>
         </div>
       </div>
-    
+      
       <div class="slider-item">
         <img src="images/team/media/b980a172-90fd-4e1d-9b32-4efc6836cfc8.png" alt="title4">
         <div class="slider-caption">
@@ -512,7 +516,7 @@
           <p class="slider-conference">conference4</p>
         </div>
       </div>
-    
+      
       <div class="slider-item">
         <img src="images/team/media/li2-p5-li-large.gif" alt="title5">
         <div class="slider-caption">
@@ -520,10 +524,11 @@
           <p class="slider-conference">conference5</p>
         </div>
       </div>
-    
+      
+    </div>
   </div>
-  <a class="slider-prev" onclick="changeSl(-1)">❮</a>
-  <a class="slider-next" onclick="changeSl(1)">❯</a>
+
+  <a href="#" class="next" onclick="changeSlide(1)">❯</a>
 </div>
 
 <section class="content-section">
