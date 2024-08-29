@@ -7,8 +7,9 @@ main {
   flex-grow: 1;
 }
 .carousel {
-  position: relative;
-  max-width: 90%;
+  position: absolute;
+  width: 100%;
+  max-width: 100%;
   margin: auto;
   overflow: hidden;
 
