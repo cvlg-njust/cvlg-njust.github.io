@@ -144,6 +144,28 @@ header[data-big] .subtitle {
   background-color: #444; /* 背景颜色 */
   padding: 0px 0px; /* 内边距 */
   margin: 0; /* 消除外边距 */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px 20px;
+}
+.scroll-header .home {
+  flex-direction: column;
+  flex-grow: 0;
+}
+.scroll-header .logo {
+  height: 80px;
+}
+.scroll-header .title-text {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.scroll-header .title {
+  font-size: var(--xxl);
+}
+.scroll-header .subtitle {
+  font-size: var(--large);
 }
 
 header + header {
