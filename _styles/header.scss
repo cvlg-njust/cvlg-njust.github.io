@@ -291,4 +291,75 @@ header[data-big] {
     background-color: rgba(155, 26, 134, 0.5);
   }
   
+.ca-home {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.ca-title-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  min-width: 0;
+  font-family: var(--title);
+  text-align: left;
+}
+
+.ca-title {
+  font-size: var(--large);
+}
+
+.ca-nav-toggle {
+  display: none;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  color: var(--text);
+  appearance: none;
+  transition: background var(--transition);
+}
+
+.ca-nav-toggle:after {
+  content: "\f0c9";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: var(--text);
+  font-size: 15px;
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  transform: translate(-50%, -50%);
+}
+
+.nav-toggle:checked:after {
+  content: "\f00d";
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-family: var(--heading);
+  text-transform: uppercase;
+}
+
+nav > a {
+  padding: 5px;
+  display: inline-flex;
+}
+
+nav > a:hover {
+  color: var(--primary);
+}
+  
 }

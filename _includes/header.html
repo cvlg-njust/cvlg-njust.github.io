@@ -19,20 +19,17 @@
         </div>
       {% endfor %}
 
-      <a href="{{ "/" | relative_url }}" class="home" style="position: absolute">
+      <a href="{{ "/" | relative_url }}" class="ca-home" style="position: absolute">
         {% if site.logo-text != false %}
-          <span class="title-text" data-tooltip="Home">
+          <span class="ca-title-text" data-tooltip="Home">
             {% if site.title and site.show-title != false %}
-              <span class="title">{{ site.title }}</span>
-            {% endif %}
-            {% if site.subtitle and site.show-subtitle != false %}
-              <span class="subtitle">{{ site.subtitle }}</span>
+              <span class="ca-title">{{ site.title }}</span>
             {% endif %}
           </span>
         {% endif %}
       </a>
     
-      <input class="nav-toggle" type="checkbox" aria-label="show/hide nav" style="position: absolute">
+      <input class="ca-nav-toggle" type="checkbox" aria-label="show/hide nav" style="position: absolute">
     
       <nav>
         {% assign pages = site.pages
@@ -40,7 +37,7 @@
           | sort: "nav.order"
         %}
         <!-- 添加主页链接 -->
-        <a href="{{ '/' | absolute_url }}" class="home-link">Home</a>
+        <a href="{{ '/' | absolute_url }}" class="ca-home-link">Home</a>
         {% for page in pages %}
           {% if page.nav %}
             <a
