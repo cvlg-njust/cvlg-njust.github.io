@@ -183,7 +183,7 @@ header[data-big] .subtitle {
   text-align: center;
 }
 .carousel .carousel-item img {
-  width: 100%; /* 保证图片宽度为容器的宽度 */
+  width: auto; /* 保证图片宽度为容器的宽度 */
   height: 400px; /* 自动调整高度 */
   object-fit: cover; /* 保证图片裁剪后依然保持比例 */
 }
@@ -194,7 +194,7 @@ header[data-big] .subtitle {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(200, 200, 200, 0.3); /* 浅灰色 */
+  background-color: rgba(134, 134, 134, 0.3); /* 浅灰色 */
   pointer-events: none; /* 允许鼠标穿透这个层 */
 }
 .carousel .carousel-item.active {
@@ -281,7 +281,7 @@ header[data-big] .subtitle {
 }
 .carousel .ca-title {
   position: absolute;
-  width: 100%; /* 根据容器需要调整宽度 */
+  width: auto; /* 根据容器需要调整宽度 */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
