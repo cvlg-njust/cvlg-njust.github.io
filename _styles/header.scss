@@ -390,9 +390,8 @@ header[data-big] {
   }
 
   nav {
-    background-color: rgba(147, 112, 219, 0.7); /* 设置淡紫色背景，透明度为0.7 */
+    background-color: rgba(147, 112, 219, 0); /* 设置淡紫色背景，透明度为0.7 */
     
-    padding: 10px; /* 根据需要添加内边距 */
     text-align: center; /* 水平居中对齐内部内容 */
     margin: 0 auto; /* 让 nav 自动居中 */
     padding: 0; /* 移除不必要的 padding */
@@ -401,6 +400,11 @@ header[data-big] {
     justify-content: center; /* 水平居中 */
     align-items: center; /* 垂直居中 */
     width: 100%; /* 占满父容器宽度 */
+    padding: 10px; /* 根据需要添加内边距 */
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* 确保 Nav 占据整个父容器的宽度 */
   }
   
   nav > a {
