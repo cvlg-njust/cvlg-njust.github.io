@@ -1,6 +1,10 @@
-<div class="slider-container">
-  <div class="slider-wrapper">
-    {% for slide in site.data.slider %}
+<div class="slider-container-wrapper">
+  <a href="#" class="prev" onclick="changeSlide(-1)">&#10094;</a>
+  
+  <div class="slider-container">
+    <div class="slider-wrapper">
+      <!-- Slide Items -->
+      {% for slide in site.data.slider %}
       <div class="slider-item">
         <img src="{{ slide.image }}" alt="{{ slide.title }}">
         <div class="slider-caption">
@@ -8,8 +12,9 @@
           <p class="slider-conference">{{ slide.conference }}</p>
         </div>
       </div>
-    {% endfor %}
+      {% endfor %}
+    </div>
   </div>
-  <a class="slider-prev" onclick="changeSl(-1)">&#10094;</a>
-  <a class="slider-next" onclick="changeSl(1)">&#10095;</a>
+
+  <a href="#" class="next" onclick="changeSlide(1)">&#10095;</a>
 </div>
