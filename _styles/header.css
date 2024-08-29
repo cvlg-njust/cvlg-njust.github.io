@@ -348,7 +348,7 @@ header[data-big] .subtitle {
   width: 100%; /* 占满父容器宽度 */
 }
 .carousel nav > a {
-  font-size: 1.5rem; /* 调整 Nav 字体大小 */
+  font-size: 0.5rem; /* 调整 Nav 字体大小 */
   color: white; /* 将字体颜色设置为白色 */
   padding: 5px;
   display: inline-flex;
