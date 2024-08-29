@@ -133,8 +133,9 @@ $background-color: #ffffff;
 
   img {
     width: 100%;
-    height: auto;
-    display: block;
+    height: 100%; /* 使图片填充整个高度 */
+    object-fit: cover; /* 确保图片被裁剪而不是缩小 */
+    display: block
   }
 
   .slider-caption {
@@ -146,7 +147,7 @@ $background-color: #ffffff;
     color: white;
     padding: 10px;
     text-align: center;
-    transform: translateY(40%); /* 初始状态下移出一半 */
+    transform: translateY(60%); /* 初始状态下移出一半 */
     transition: transform 0.3s ease, height 0.3s ease; /* 添加过渡效果 */
     opacity: 1;
     display: flex;
