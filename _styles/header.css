@@ -140,8 +140,9 @@ header[data-big] .subtitle {
 }
 
 .scroll-header {
+  display: flex;
   position: relative;
-  background-color: #444; /* 背景颜色 */
+  background-color: #949292; /* 背景颜色 */
   padding: 0px 0px; /* 内边距 */
   margin: 0; /* 消除外边距 */
   justify-content: center;
