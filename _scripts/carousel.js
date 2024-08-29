@@ -13,7 +13,7 @@ function showSlide(n) {
     slides[i].style.display = "none";
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[n].style.display = "flex";
+  slides[n].style.display = "block";
   dots[n].className += " active";
 }
 
