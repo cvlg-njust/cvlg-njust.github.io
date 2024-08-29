@@ -2,7 +2,7 @@
 ---
 
 <!-- # Creative Vision&Learning Group@PCA Lab -->
-{% include section.html %}
+
 
 ## Resent Works
 
