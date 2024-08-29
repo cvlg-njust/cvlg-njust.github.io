@@ -31,7 +31,7 @@
     
       <input class="ca-nav-toggle" type="checkbox" aria-label="show/hide nav" style="position: absolute">
     
-      <nav>
+      <nav style="position: absolute;top: 90%;">
         {% assign pages = site.pages
           | where_exp: "page", "page.nav"
           | sort: "nav.order"
