@@ -174,7 +174,6 @@ header[data-big] {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: $big-padding 20px;
 
   @if $sticky {
     top: unset;
@@ -202,8 +201,4 @@ header[data-big] {
   .subtitle {
     font-size: var(--large);
   }
-}
-
-header + header {
-  margin-top: 0; /* 确保两个 header 之间没有外边距 */
 }
