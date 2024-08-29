@@ -1,6 +1,6 @@
 let slideIndex = 0;
 
-function changeSlide(n) {
+function changeSl(n) {
   const slides = document.querySelectorAll('.slider-item');
   const totalSlides = slides.length;
   const wrapper = document.querySelector('.slider-wrapper');
