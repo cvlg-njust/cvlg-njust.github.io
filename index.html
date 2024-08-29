@@ -358,6 +358,8 @@
 
   <script src="/_scripts/site-search.js"></script>
 
+  <script src="/_scripts/slider.js"></script>
+
   <script src="/_scripts/table-wrap.js"></script>
 
   <script src="/_scripts/tooltip.js"></script>
@@ -444,9 +446,6 @@
           
         
       </nav>
-
-      <a class="prev" onclick="changeSlide(-1)">❮</a>
-      <a class="next" onclick="changeSlide(1)">❯</a>
   
       <div class="carousel-indicators">
         
@@ -481,31 +480,13 @@
 
   <section class="background" data-size="page">
     <h2 id="recent-works">Recent works</h2>
-<div class="image-slider">
-    <div class="slider-item">
-      <img src="images/photo.jpg" alt="Paper 1">
-      <div class="info">
-        <h2 class="title">Crowdsampling the Plenoptic Function</h2>
-        <p class="conference">Conference Name 1</p>
-      </div>
-    </div>
-  
-    <div class="slider-item">
-      <img src="images/photo.jpg" alt="Paper 2">
-      <div class="info">
-        <h2 class="title">Learning the Depths of Moving People by Watching Frozen People</h2>
-        <p class="conference">Conference Name 2</p>
-      </div>
-    </div>
-  
-    <div class="slider-item">
-      <img src="images/photo.jpg" alt="Paper 3">
-      <div class="info">
-        <h2 class="title">Learning Material-Aware Local Descriptors for 3D Shapes</h2>
-        <p class="conference">Conference Name 3</p>
-      </div>
-    </div>
+<div class="slider-container">
+  <div class="slider-wrapper">
+    
   </div>
+  <a class="prev" onclick="changeSlide(-1)">❮</a>
+  <a class="next" onclick="changeSlide(1)">❯</a>
+</div>
 
 <section class="content-section">
     <div class="news">
