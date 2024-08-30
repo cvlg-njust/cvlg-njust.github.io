@@ -179,7 +179,7 @@ header[data-big] .subtitle {
 }
 .carousel .carousel-item {
   background-color: rgba(95, 94, 94, 0.5);
-  display: inline-flex;
+  display: none;
   text-align: center;
   overflow: hidden;
 }
