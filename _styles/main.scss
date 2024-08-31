@@ -113,7 +113,7 @@ $background-color: #ffffff;
 
 .slider-container {
   overflow: hidden; /* 隐藏溢出的部分 */
-  width: calc(100%-100px); /* 确保图片占据足够宽度，并为切换按钮留出空间 */
+  width: calc(100% - 100px); /* 确保图片占据足够宽度，并为切换按钮留出空间 */
   height: 300px; /* 调整高度以增加大小 */
   margin: 0 auto; /* 居中对齐 */
 }
