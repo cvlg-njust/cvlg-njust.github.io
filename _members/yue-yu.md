@@ -1,6 +1,6 @@
 ---
 name: Yue Yu
-image: images/photo.png
+image: images/team/media/yy.jpg
 role: phd
 year: 2024
 ---
