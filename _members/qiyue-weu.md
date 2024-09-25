@@ -1,6 +1,6 @@
 ---
 name: Qiyue Wu
-image: images/photo.png
+image: images/team/media/qy.jpg
 role: ms
 year: 2023
 ---
