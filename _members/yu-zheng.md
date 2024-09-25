@@ -1,6 +1,6 @@
 ---
 name: Yu Zheng
-image: images/photo.png
+image: images/team/media/zy.jpg
 role: phd
 description: (co-advised)
 year: 2024
