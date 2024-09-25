@@ -1,5 +1,5 @@
 ---
 name: Sizhuo Jin
-image: images/photo.png
+image: images/team/media/sj.jpg
 role: ra
 ---
