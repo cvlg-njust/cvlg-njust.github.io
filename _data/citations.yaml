@@ -1,39 +1,30 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1007/s44267-024-00048-9
-  title: Learnable differencing center for nighttime depth perception
+- id: doi:10.1007/978-3-031-73220-1_6
+  title: 'TP2O: Creative Text Pair-to-Object Generation Using Balance Swap-Sampling'
   authors:
-  - Zhiqiang Yan
-  - Yupeng Zheng
-  - Deng-Ping Fan
-  - Xiang Li
   - Jun Li
+  - Zedong Zhang
   - Jian Yang
-  publisher: Visual Intelligence
-  date: '2024-06-19'
-  link: https://doi.org/gt7vvk
-  orcid: 0000-0003-3502-438X
-  plugin: sources.py
-  file: sources-2024.yaml
-  image: images/team/media/b980a172-90fd-4e1d-9b32-4efc6836cfc8.png
-  type: paper
-- id: doi:10.1109/TNNLS.2022.3208330
-  title: Learning Complementary Correlations for Depth Super-Resolution With Incomplete
-    Data in Real World
-  authors:
-  - Zhiqiang Yan
-  - Kun Wang
-  - Xiang Li
-  - Zhenyu Zhang
-  - Guangyu Li
-  - Jun Li
-  - Jian Yang
-  publisher: IEEE Transactions on Neural Networks and Learning Systems
-  date: '2024-04-01'
-  link: https://doi.org/gr7qbz
-  orcid: 0000-0003-3502-438X
+  publisher: Lecture Notes in Computer Science
+  date: '2024-11-03'
+  link: https://doi.org/g8pz2w
+  orcid: 0000-0003-3716-671X
   plugin: orcid.py
-  file: orcid-zhiqiangyan.yaml
+  file: orcid-junli.yaml
+- id: doi:10.1111/cgf.15178
+  title: Garment Animation NeRF with Color Editing
+  authors:
+  - Renke Wang
+  - Meng Zhang
+  - Jun Li
+  - Jian Yang
+  publisher: Computer Graphics Forum
+  date: '2024-10-09'
+  link: https://doi.org/g8dg3d
+  orcid: 0000-0003-3716-671X
+  plugin: orcid.py
+  file: orcid-junli.yaml
 - id: doi:10.1109/TNNLS.2020.3040379
   title: Learnable Subspace Clustering
   authors:
@@ -133,6 +124,40 @@
   orcid: 0000-0003-3716-671X
   plugin: orcid.py
   file: orcid-junli.yaml
+- id: doi:10.1007/s44267-024-00048-9
+  title: Learnable differencing center for nighttime depth perception
+  authors:
+  - Zhiqiang Yan
+  - Yupeng Zheng
+  - Deng-Ping Fan
+  - Xiang Li
+  - Jun Li
+  - Jian Yang
+  publisher: Visual Intelligence
+  date: '2024-06-19'
+  link: https://doi.org/gt7vvk
+  orcid: 0000-0003-3502-438X
+  plugin: sources.py
+  file: sources-2024.yaml
+  image: images/team/media/b980a172-90fd-4e1d-9b32-4efc6836cfc8.png
+  type: paper
+- id: doi:10.1109/TNNLS.2022.3208330
+  title: Learning Complementary Correlations for Depth Super-Resolution With Incomplete
+    Data in Real World
+  authors:
+  - Zhiqiang Yan
+  - Kun Wang
+  - Xiang Li
+  - Zhenyu Zhang
+  - Guangyu Li
+  - Jun Li
+  - Jian Yang
+  publisher: IEEE Transactions on Neural Networks and Learning Systems
+  date: '2024-04-01'
+  link: https://doi.org/gr7qbz
+  orcid: 0000-0003-3502-438X
+  plugin: orcid.py
+  file: orcid-zhiqiangyan.yaml
 - id: arxiv:2405.16105
   title: 'MambaLLIE: Implicit Retinex-Aware Low Light Enhancement with Global-then-Local
     State Space'
