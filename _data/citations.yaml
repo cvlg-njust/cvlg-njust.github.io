@@ -12,6 +12,17 @@
   orcid: 0000-0003-3716-671X
   plugin: orcid.py
   file: orcid-junli.yaml
+- id: doi:10.1145/3680528.3687610
+  title: Neural Garment Dynamic Super-Resolution
+  authors:
+  - Meng Zhang
+  - Jun Li
+  publisher: SIGGRAPH Asia 2024 Conference Papers
+  date: '2024-12-03'
+  link: https://doi.org/g8t4j3
+  orcid: 0000-0003-3716-671X
+  plugin: orcid.py
+  file: orcid-junli.yaml
 - id: doi:10.1111/cgf.15178
   title: Garment Animation NeRF with Color Editing
   authors:
