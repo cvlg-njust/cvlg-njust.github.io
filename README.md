@@ -1,5 +1,5 @@
 
-# NJUSTzandyzDESCRIPTION=An engaging 1-3 sentence description of your lab.'s Website
+#
 
 Visit **[cvlg-njust.github.io](https://cvlg-njust.github.io/)** 🚀
 
