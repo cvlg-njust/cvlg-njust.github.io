@@ -2,7 +2,7 @@
   title: "MambaLLIE: Implicit Retinex-Aware Low Light Enhancement with Global-then-Local State Space"
   conference: NeurIPS 2024
 - image: images/papers/tp2o.png
-  title: TP2O: Creative Text Pair-to-Object Generation Using Balance Swap-Sampling
+  title: "TP2O: Creative Text Pair-to-Object Generation Using Balance Swap-Sampling"
   conference: ECCV 2024
 - image: images/papers/aith.png
   title: Novel Object Synthesis via Adaptive Text-Image Harmony
