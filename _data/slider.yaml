@@ -1,5 +1,5 @@
 - image: images/papers/mambaLLIE.png
-  title: MambaLLIE: Implicit Retinex-Aware Low Light Enhancement with Global-then-Local State Space
+  title: "MambaLLIE: Implicit Retinex-Aware Low Light Enhancement with Global-then-Local State Space"
   conference: NeurIPS 2024
 - image: images/papers/tp2o.png
   title: TP2O: Creative Text Pair-to-Object Generation Using Balance Swap-Sampling
